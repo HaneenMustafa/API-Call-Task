@@ -1,0 +1,73 @@
+html {
+    background: url('head.jpg') no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+}
+body{
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+#card {
+    /* height: 540px; */
+    width:  350px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: center;
+   
+    /* padding: 50px 35px; */
+}
+@media screen and (max-width:600px) {
+    #card {
+        width: 100%;
+       display: block;
+    
+      margin-bottom: 20px;
+
+    }
+}
+
+.box {
+    width: 120px;
+    background-color: rgba(255, 255, 255, 0.345);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: center;
+    margin: 3px;
+   
+    padding: 10px;
+    padding-top: 20px;
+    font-size: small;
+}
+.box-content{
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.345);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: center;
+    margin: 3px;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: small;
+    /* margin-top: 20px; */
+}
